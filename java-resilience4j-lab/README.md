@@ -191,7 +191,7 @@ Welcome to the TechTalk hands-on lab! In this session, we’ll be enhancing an e
       
       @Log4j2
       @ControllerAdvice
-      public class CustomExceptionHandler {
+      public class pt.aubay.resilience_demo.controller.CustomExceptionHandler {
 
       }
    ```
@@ -211,7 +211,7 @@ Welcome to the TechTalk hands-on lab! In this session, we’ll be enhancing an e
    
    @Log4j2
    @ControllerAdvice
-   public class CustomExceptionHandler {
+   public class pt.aubay.resilience_demo.controller.CustomExceptionHandler {
    
    
        @ExceptionHandler({ RequestNotPermitted.class })

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Base URL for the API endpoints
-HOST='app:8080'
+HOST='http://localhost:8080'
 ENDPOINT='/api/v1/resilience'
 # Function to perform 30 simultaneous POST requests
 function call_post_simultaneous() {
